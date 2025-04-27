@@ -1,6 +1,7 @@
 .blurb:has(a[href*="Top%20Nanami%20Kento"]),
 .blurb:has(a[href*="Top%20Kento%20Nanami"]),
 .blurb:has(a[href*="Top!Nanami"]),
+.blurb:has(a[href*="Top%20Nanami"]),
 .blurb:has(a[href*="top!nanami"]) {
   display: none !important;
 }

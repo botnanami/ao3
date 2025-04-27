@@ -1,0 +1,15 @@
+.blurb:has(a[href*="Top%20Nanami%20Kento"]),
+.blurb:has(a[href*="Top%20Kento%20Nanami"]),
+.blurb:has(a[href*="Top!Nanami"]),
+.blurb:has(a[href*="top!nanami"]) {
+  display: none !important;
+}
+
+.blurb:has(a[href*="Dom%20Nanami%20Kento"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
+.blurb:has(a[href*="daddy%20nanami"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
+.blurb:has(a[href*="Dominant%20Nanami%20Kento"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
+.blurb:has(a[href*="Dom!Nanami"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
+.blurb:has(a[href*="dom!%20Nanami"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
+.blurb:has(a[href*="Nanami%20Kento%20Has%20a%20Big%20Dick"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])) {
+  display: none !important;
+}

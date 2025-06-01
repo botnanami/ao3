@@ -4,7 +4,8 @@
 .blurb:has(a[href*="Bottom%20Gojo"]),
 .blurb:has(a[href*="Bottom!Gojo"]),
 .blurb:has(a[href*="Bottom!gojo"]),
-.blurb:has(a[href*="bottom%20gojo"]) .blurb:has(a[href*="bottom!gojo"]),
+.blurb:has(a[href*="bottom%20gojo"]) 
+.blurb:has(a[href*="bottom!gojo"]),
 .blurb:has(a[href*="Bottom!%20Gojo"]),
 .blurb:has(a[href*="Satoru%20would%20bottom"]),
 .blurb:has(a[href*="bottom%20Gojo"]),

@@ -1,10 +1,11 @@
 .blurb:has(a[href*="Bottom%20Gojo%20Satoru"]),
+.blurb:has(a[href*="Bottom%20Satoru%20Gojo"]),
 .blurb:has(a[href*="bottom%20gojo%20satoru"]),
 .blurb:has(a[href*="bottom%20satoru%20gojo"]),
 .blurb:has(a[href*="Bottom%20Gojo"]),
 .blurb:has(a[href*="Bottom!Gojo"]),
 .blurb:has(a[href*="Bottom!gojo"]),
-.blurb:has(a[href*="bottom%20gojo"]) 
+.blurb:has(a[href*="bottom%20gojo"]),
 .blurb:has(a[href*="bottom!gojo"]),
 .blurb:has(a[href*="Bottom!%20Gojo"]),
 .blurb:has(a[href*="Satoru%20would%20bottom"]),
@@ -20,6 +21,8 @@
 
 .blurb:has(a[href*="Top%20Nanami%20Kento"]),
 .blurb:has(a[href*="Top%20Kento%20Nanami"]),
+.blurb:has(a[href*="top%20nanami%20kento"]),
+.blurb:has(a[href*="top%20kento%20nanami"]),
 .blurb:has(a[href*="Top!Nanami"]),
 .blurb:has(a[href*="Top!nanami"]),
 .blurb:has(a[href*="top!Nanami"]),
@@ -44,5 +47,9 @@
 .blurb:has(a[href*="Gojo%20Satoru%20is%20a%20switch"]),
 .blurb:has(a[href*="they%20will%20switch"]),
 .blurb:has(a[href*="they%20switch"]) {
+  display: none !important;
+}
+
+.blurb:has(a[href$="/tags/Gojo%20Satoru*s*Nanami%20Kento/works"]):has(li:nth-child(1 of .relationships) > a:is([href="/tags/Getou%20Suguru*s*Gojo%20Satoru/works"])) {
   display: none !important;
 }

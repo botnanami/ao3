@@ -3,7 +3,7 @@ var options = {/* OPTIONS */};
 if ( !options.mode ) {
   options.mode = "download";
 }
-var headers = "Title,Author,Fandom,Category,Relationships,Characters,Freeforms,Rating,Warnings,Published,Words,Chapters,Summary,Story URL,Series,Series URL,Collections";
+var headers = "Title,Author,Fandom,Category,Relationships,Characters,Freeforms,Rating,Warnings,Published,Words,Chapters,Summary,Story URL,Series,Series URL";
 var mode = "works";
 if ( $('#main').hasClass('bookmarks-index') ) {
   mode = "bookmarks";
@@ -49,9 +49,8 @@ $("li.work, li.bookmark").each(function() {
   var summary = $.trim( $('.summary', this).children().map( function() { return $(this).clone().append( spacer ); } ).text() );
 var series = $.trim( $('.series', this).children().map( function() { return $(this).clone().append( spacer ); } ).text() );
   var seriesurl = "https://ao3.org" + $("ul.series li > a:first", this).attr('href');
-var collections = $("dd.collections", this).text().replace(/[^\d]/g, '');
 
-  var fields = [title, author, fandoms, category, relationships, characters, freeforms, rating, warnings, date, words, chapters, summary, url, series, seriesurl, collections];
+  var fields = [title, author, fandoms, category, relationships, characters, freeforms, rating, warnings, date, words, chapters, summary, url, series, seriesurl];
 
   if ( mode == "bookmarks" ) {
     var bookmark_tags = $(".user .tags a.tag", this).map(function() { return $(this).text() }).get().join(', ');

@@ -9,6 +9,7 @@
 .blurb:has(a[href*="Top%20Nanami"]),
 .blurb:has(a[href*="top%20nanami"]),
 .blurb:has(a[href*="daddy%20nanami"]),
+.blurb:has(a[href*="Daddy%20Nanami"]),
 .blurb:has(a[href*="Dom%20Nanami%20Kento"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
 .blurb:has(a[href*="Dominant%20Nanami%20Kento"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
 .blurb:has(a[href*="Dom!Nanami"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
@@ -36,6 +37,7 @@
 .blurb:has(a[href*="Power%20bottom!Gojo"]),
 .blurb:has(a[href*="Power%20bottom!gojo"]),
 .blurb:has(a[href*="Trans%20Gojo%20Satoru"]),
+.blurb:has(a[href*="Pregnant%20Gojo%20Satoru"]),
 .blurb:has(a[href*="Sub%20Gojo%20Satoru"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
 .blurb:has(a[href*="sub%20satoru%20gojo"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])),
 .blurb:has(a[href$="Omega%20Gojo%20Satoru/works"]):not(:has(a[href$="/tags/Bottom%20Nanami%20Kento/works"])) {
